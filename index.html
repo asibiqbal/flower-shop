@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="font-[inter]">
+     <!-- <h1 class="font-[Inter] text-4xl">Welcome to Our Flower Shop (Inter)</h1> -->
+     <!-- <h1 class="font-['Noto_Serif'] text-4xl mt-4">Welcome to Our Flower Shop (Noto Serif)</h1> -->
+    <!-- header -->
+     <header>
+        <!-- navbar -->
+        <div class="flex justify-between container mx-auto pt-4 md:pt-12 content-center items-center">
+            <!-- logo -->
+             <div>
+                <img class="w-[63px] h-[38px] md:w-[135px] md:h-[82px]" src="assets/logo.png" alt="">
+             </div>
+             <!-- menu and cart-->
+              <div class="flex items-center">
+                <ul class="md:flex hidden">
+                    <li class="mr-12"><a class="text-gray-900 font-bold" href="">Home</a></li>
+                    <li class="mr-12"><a class="text-gray-400 hover:text-gray-900" href="">Contact</a></li>
+                    <li class="mr-12"><a class="text-gray-400 hover:text-gray-900" href="">About Us</a></li>
+                </ul>
+                <span class="flex">
+                    <img src="assets/shopping-cart.svg" alt="">
+                    <a class="ml-2" href="">Cart ($56)</a>
+                </span>
+              </div>
+
+        </div>
+     </header>
 </body>
-</html>git push -u origin main
+</html>
