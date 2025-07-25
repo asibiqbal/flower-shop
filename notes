@@ -2,3 +2,7 @@ colors -
 #252432 - bg-zinc-900 or bg-gray-900	
 #8987A1 - text-gray-400 or text-zinc-400	
 #E95A08 - bg-orange-600	
+
+Fonts-
+font-['Noto_Serif']
+font-[Inter]
